@@ -13,4 +13,4 @@ C помощью файла docker-compose.yml создал сеть из тре
 потерять контент и логины пароли пользователей со своего сайта. Пробросил порты между контейнерами и открыл доступ в интернет.
 Вуаля, всё работает как часы))
 
-###![alt text](https://github.com/tema-skakun/fdf/blob/214aefdc1b6bcbe4f7ccef914b3caf478b569012/Screenshot%202022-02-24%20at%2007.16.31.png) 
+![Схема проекта](https://github.com/tema-skakun/inceptio/blob/75a59c5fbacb1a5c26cadc5d56a63f229767f641/02_Shema_inception.jpg) 
