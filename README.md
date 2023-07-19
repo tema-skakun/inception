@@ -1,18 +1,17 @@
 # inception
 
-Этот проект направлен на расширение знаний в области системного администрирования с помощью Docker и docker compose.
-Я запустил несколько образов Docker, создав их на Debian 11, который был виртуализирован на VirtualBox 7.
+This project aims to expand your system administration knowledge with Docker and docker compose. I have run several Docker images by building them on Debian 11 which has been virtualized on VirtualBox 7.
 
-Запускал контейнеры с помощью оркестратора docker-compose.
+Launched containers using the docker-compose orchestrator.
 
-C помощью файла docker-compose.yml создал сеть из трех контейнеров:
-- база данных MariaDB,
-- система управления содержимым сайта WordPress + PHP,
-- веб-сервер Nginx.
+Using the docker-compose.yml file, I created a network of three containers:
 
-Создал два тома для хранения информации, на случай непредвиденных ситуаций, что бы не
-потерять контент и логины пароли пользователей со своего сайта. Пробросил порты между контейнерами и открыл доступ в интернет.
+- MariaDB Database,
+- content management system WordPress + PHP,
+- nginx web server.
 
-Вуаля, всё работает как часы))
+I created two volumes for storing information, in case of unforeseen situations, so as not to lose content and logins, user passwords from my site. Forwarded ports between containers and opened Internet access.
+
+Voila, everything works like clockwork))
 
 ![Схема проекта](https://github.com/tema-skakun/inceptio/blob/75a59c5fbacb1a5c26cadc5d56a63f229767f641/02_Shema_inception.jpg) 
