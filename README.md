@@ -1,6 +1,6 @@
 # inception
 
-This project aims to expand your system administration knowledge with Docker and docker compose. I have run several Docker images by building them on Debian 11 which has been virtualized on VirtualBox 7.
+This project expanded my system administration knowledge with Docker and docker compose. I have run several Docker images by building them on Debian 11 which has been virtualized on VirtualBox 7.
 
 Launched containers using the docker-compose orchestrator.
 
